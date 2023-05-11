@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Belleveille",
+			"path": "../Belleveille"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/belleville.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <style>
+      ::-webkit-scrollbar {
+        background-color: white;
+        width: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: rgb(102, 102, 196);
+        height: 2rem;
+        border-radius: 10rem;
+      }
+      body{
+        overflow-x: hidden;
+      }
+      .tet {
+        border-bottom-width: 70vw;
+
+        background-color: rgb(102, 102, 196);
+      }
+      .log {
+        width: 3vw;
+        aspect-ratio: 1;
+      }
+      .lit {
+        width: 2vw;
+        aspect-ratio: 1;
+      }
+      .carousel slide {
+        width: 10vw;
+      }
+      .carousel slide img {
+        width: 100vw;
+        /* height: 50vh; */
+        object-fit: contain;
+        /* height:50vh; */
+      }
+      nav a :hover {
+        color: rgb(102, 102, 196);
+      }
+      .carousel {
+        height: 85vh;
+        overflow: hidden;
+        transition-duration: 1s;
+        transition-delay: 1s;
+        
+      }
+      .card {
+        margin-inline: auto;
+        margin-top: 10vh;
+      }
+      .res {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        font-weight: 10vw;
+      }
+      .text-white {
+        font-weight: 5vw;
+        font-size: 5vw;
+        margin-left: 40vw;
+        margin-top: 1%;
+      }
+      .text-primary {
+        font-size: 5vw;
+        font-weight: 5vw;
+        margin-left: -40vw;
+        margin-top: -25vh;
+      }
+      .faqi {
+        background-color: rgb(102, 102, 196);
+        height: 50vh;
+        padding: 5vw;
+        width: 45vw;
+      }
+      .dropdown-item {
+        width:29vw;
+        font-size: 1vw;
+      }
+      .dropdown-toggle {
+        width: 29vw;
+        font-size: 1vw;
+        margin-bottom: 1vh;
+      }
+    </style> -->
+    <link rel="icon" href="../img/den-img.jpg" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html"
+          ><h3>
+            <img src="../img/den-img.jpg" class="log rounded-pill" alt="logo" />
+            Belleville
+          </h3></a
+        >
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <h4>
+                <a class="nav-link" href="./professional.html"
+                  >Professional Education</a
+                >
+              </h4>
+            </li>
+            <li class="nav-item">
+              <h4>
+                <a class="nav-link" href="./patient.html"
+                  >Patient Education</a
+                >
+              </h4>
+            </li>
+          
+            <li class="nav-item">
+              <h4><a class="nav-link" href="./product.html">Products</a></h4>
+            </li>
+          </ul>
+        </div>
+      </div><div class="row co "><div class="col"><img src="../img/counter.jpg" class="w-100 counter" alt=""></div><div class="col"> <p class="text-dark fs-5 "> <span id="visitor-count">0</span></p></div></div>
+      </div>
+    </nav>
+
+    <div class="row  p-5 resy">
+      <div class="col-lg-4  mt-5 p-5"><h1 class="fs-1 text-light rey">Welcome To</h1> <h3 class="rey text-white">Belleville Dental Care research</h3><p class="rey text-light">Here, you will find a collection of informative articles, studies, and research papers on the latest developments in the field of dentistry.</p></div>
+      <div class="col-lg-4 mx-auto mt-5"><img src="../img/ec.jpg" class="rounded-circle w-100 " alt=""></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 rounded-circle"><img src="../img/poo.jpg" class="w-100" alt=""></div>
+      <div class="col-lg-6 p-5">
+        <h3 class="text-center">Activities</h3>
+        <p>Our team of dental experts is committed to advancing our knowledge and understanding of the complex issues facing our industry. We believe that staying up-to-date on the latest research and developments is essential to providing the best possible care to our patients.</p><p>
+        Whether you are a dental student, researcher, or practitioner, our research section is designed to provide you with the tools and resources you need to stay informed and up-to-date on the latest trends and advancements in our field. From groundbreaking research to innovative treatment approaches, we aim to offer a comprehensive overview of the latest findings and insights in dentistry.
+      </p></div>
+    </div>
+
+    <div id="research " class="row tet ms-auto me-auto">
+      <div class="res"><h1 class=" rey text-center p-5 jet">Case studies</h1></div>
+      <div class="card col-03-lg col-04-md col-sm-12" style="width: 18rem">
+        <img src="../img/filling.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">New dental filling materials</h5>
+          <p class="card-text">
+            Researchers are exploring new materials to replace traditional
+            dental fillings that can be more durable and better match the
+            natural color of teeth.
+          </p>
+          <a href="#" class="yop ms-auto mt-auto me-auto">Read more</a>
+        </div>
+      </div>
+      <div class="card col-03-lg col-04-md col-sm-12" style="width: 18rem">
+        <img src="../img/techtt.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Advancements in dental implant technology</h5>
+          <p class="card-text">
+            Researchers are exploring new materials and techniques to improve
+            dental implant success rates and make the procedure less invasive
+            and painful.
+          </p>
+          <a href="#" class="yop ms-auto me-auto">Read more</a>
+        </div>
+      </div>
+      <div class="card col-03-lg col-04-md col-sm-12" style="width: 18rem">
+        <img
+          src="../img/oral cancer screening.jpeg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Oral cancer screening</h5>
+          <p class="card-text ">
+            Studies are being conducted to develop better methods for early
+            detection and diagnosis of oral cancer.
+          </p>
+          <a href="#" class=" yop ms-auto me-auto ">Read more</a>
+        </div>
+      </div>
+      <div class="card col-03-lg col-04-md col-sm-12" style="width: 18rem">
+        <img src="../img/healthy.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            The impact of oral health on overall health
+          </h5>
+          <p class="card-text">
+            There is growing evidence of a link between poor oral health and
+            chronic conditions such as heart disease, diabetes, and dementia.
+          </p>
+          <a href="#" class=" yop ms-auto me-auto mt-auto">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="row p-5 mx-auto">
+      <div class="col-lg-6 col-sm-12 faqi p-5 mx-auto text-center">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            How often should I go to the dentist for a checkup?
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Answer: It's recommended that you go for a dental <br />checkup
+                every six months. Regular checkups can help <br />
+                detect any oral health issues early and prevent them <br />
+                from getting <br />
+                worse.</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            How can I prevent cavities?
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Answer: The best way to prevent cavities is to <br />
+                maintain good oral hygiene. Brush your teeth <br />
+                twice a day, floss daily, limit sugary and acidic <br />
+                foods and drinks, and visit your dentist regularly.</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Can I get braces as an adult?
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Answer: Yes, it's never too late to get braces. <br />
+                There are several options for adults, including <br />
+                clear aligners and traditional braces.
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Is it normal for my gums to bleed when I brush my teeth?
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Answer: No, it's not normal for your gums to bleed <br />
+                when you brush your teeth. This could be a sign of <br />
+                gum disease, and you should see your dentist for <br />
+                an evaluation.
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            What is the best way to replace a missing tooth?
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Answer: The best way to replace a missing tooth depends <br>
+               on  several factors, including the location of the missing <br>
+              tooth and your overall oral health. Options include dental <br> implants,
+                bridges, and dentures.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 mx-auto">
+        <img src="../img/faqs.jpeg" alt="" class="w-50 mx-auto rounded-circle" />
+      </div>
+    </div>
+    
+
+
+    <div class="container ti">
+      
+      <footer class="text-center text-white tttl" style="background-color: #3f51b5">
+        <div class="container">
+          <section class="mt-5">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="./about_us.html" class="text-white">About us</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="./index.html" class="text-light">Home</a>
+                </h6>
+              </div>
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">Awards</a>
+                </h6>
+              </div> 
+    
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <button type="button" class="btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModl">
+                    Help
+                  </button>
+                </h6>
+              </div>
+            
+    
+              
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                   <button type="button" class="btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModa">
+                      Contact
+                    </button></h6>
+                    <!-- Button trigger modal -->
+  
+  
+  <!-- Modal -->
+  
+              
+                  
+  
+  
+                </h6>
+              </div>
+         
+            </div>
+            <div
+             class="text-center p-3"
+             style="background-color: rgba(0, 0, 0, 0.2)"
+             >
+             <div class="mapouter"><div class="gmap_canvas"><iframe width="300vw" height="300vh" id="gmap_canvas" src="https://maps.google.com/maps?q=aptect%20abeokuta&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:10vw;}</style><a href="https://www.embedgooglemap.net">embed google map on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:40vw;}</style></div></div> 
+          © 2020 Copyright:
+          <a class="text-white" href="eogunneye@gmail.com"
+             >Xamorite productions</a
+            >
+            
+        </div>
+          </section>
+         
+    
+          <hr class="my-5" />\\\\\
+    
+         
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  distinctio earum repellat quaerat voluptatibus placeat nam,
+                  commodi optio pariatur est quia magnam eum harum corrupti
+                  dicta, aliquam sequi voluptate quas.
+                </p>
+              </div>
+            </div>
+          </section>
+        
+  
+        
+        </div>
+       
+    
+        
+        <div class="ticker-container ">
+          <ul class="ticker">
+            <li><p  class="text-light" id="demo"></p></li>
+            <li id="loca"></p></li>
+          </ul>
+          <div id="ticker"></div>
+        </div>
+       
+        
+      </footer >
+    </div>
+  
+    <div class="modal fade" id="exampleModa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="True">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Contact Us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Your name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Topics discussed here would be used only to improve our services </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Type your message here</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Sure of my password</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="exampleModl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="True">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Help</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            Welcome to the help section of Belleville Dental! We are here to help answer any questions you may have about our dental services, scheduling appointments, or any other concerns you may have.
+  
+           <h1> Appointment Scheduling:</h1>
+            To schedule an appointment with us, simply call our office or use our online booking system. Our friendly staff will help you find a convenient time and date that works for you. We recommend that you schedule your appointments in advance to ensure that you can see your preferred dentist at your preferred time.
+            
+            <h1>Dental Services:</h1>
+            We offer a range of dental services, including general dentistry, cosmetic dentistry, and orthodontics. Our dentists are highly skilled and experienced in providing these services, and they use the latest techniques and technologies to ensure that you receive the best possible care. You can learn more about our services on our website or by speaking with our staff.
+            
+            <h1>Insurance and Payment:</h1>
+            We accept most insurance plans, and we will work with you to make sure that your treatment is affordable. If you have questions about your insurance coverage or payment options, please don't hesitate to contact our office. We also offer flexible payment plans and financing options to make sure that you can receive the care you need without breaking the bank.
+            
+            <h1>Dental Emergencies:</h1>
+            If you are experiencing a dental emergency, please call our office immediately. We understand that dental emergencies can be painful and stressful, and we will do our best to see you as soon as possible. If you are experiencing a life-threatening emergency, please call 911 or go to your nearest emergency room.
+            
+           <h1> Patient Forms:</h1>
+            To save time at your appointment, you can download and fill out our patient forms in advance. These forms can be found on our website, and they include information about your medical history, insurance coverage, and contact information. If you have any questions about these forms, please let us know.
+            
+            Thank you for choosing Belleville Dental for your dental care needs. We look forward to seeing you at our office soon!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/app.js"></script>
+    </body>
+    </html>
