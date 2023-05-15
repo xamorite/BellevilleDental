@@ -1343,3 +1343,13 @@ height: auto;
 .colo{
   background-color: #09126698;
 }
+.kol img{
+  height:100%;
+  overflow: hidden;
+}
+.kol{
+  height:48.5vh ;
+  margin-block: 5vh;
+  background-color: #d6ac52;
+  width: 46vw;
+}
