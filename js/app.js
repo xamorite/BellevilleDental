@@ -124,4 +124,7 @@ let interval = setInterval(() => {
     document.getElementById('visitor-count').innerText = i
     i++
   }else {
-    clearInterval(interval)}});
+    clearInterval(interval)
+       }
+                                 }
+);
