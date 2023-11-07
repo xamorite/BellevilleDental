@@ -188,9 +188,22 @@
   .dirt{
     border: none;
   }
+  .felf{
+    text-decoration: none;
+  }
+ .titi{
+  width: 100%;
+ }
+ .titi img{
+  width: 100%;
+ }
+  .carousel-item{
+    width: 100vw;
+  }
   .container{
-    width: 100%;
-    margin-left:0%;
+    
+    max-width: 100vw;
+    margin-inline: auto;
   }
   .quote{
     border-radius: 110%;
@@ -198,9 +211,10 @@
     margin-top: -6vh;
     margin-inline: auto;
   }
-  .tttl{
-    width:100vw;
-  }
+ .border{
+  border-radius: 4rem;
+  border: 1vw solid;
+ }
   .faqt{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -374,7 +388,7 @@
 }
 .issues{
   height:auto; 
-  margin: 3%;
+  /* margin: 3%; */
   /* width:20vh; */
   border: 1px solid black;
   border-radius: .5rem;
@@ -1116,8 +1130,12 @@ span{
   margin-block: 5vh;
 }
 .aboutus{
-  padding: 5%;
-
+  padding: 3%;
+ justify-content: space-around;
+ 
+}
+.tui{
+  max-width: 5vw;
 }
 .tile{
   width: 30vw;
@@ -1167,15 +1185,15 @@ span{
   transform: translateY(-10px);
 }
  .sercvices{
- width: 23vw;
-margin-inline: auto;
+ /* width: 20vw; */
+/* margin-inline: auto; */
 background-color:#dad3d3;
 margin-block: 5vh;
 height: auto;
  }
  .sercvice{
-  width: 23vw;
- margin-inline: auto;
+  /* width: 23vw; */
+ /* margin-inline: auto; */
  background-color:#3f51b5;
  margin-block: 5vh;
  height: auto;
@@ -1191,7 +1209,7 @@ height: auto;
  }
  .verb{
   width: 80vw;
-  margin-inline-start: 10vw;
+ margin-inline: auto;
  }
  .cont{
   width: 10vw;
@@ -1217,6 +1235,7 @@ height: auto;
 .footer{
   width: 100%;
 }
+
 .gray{
   background-color:#dad3d3;
   /* height: 50vh; */
@@ -1353,4 +1372,8 @@ height: auto;
   background-color: #d6ac52;
   width: 46vw;
   overflow: hidden;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
 }
